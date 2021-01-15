@@ -1,0 +1,12 @@
+.resultsection{
+    height: 50vh;
+    display:flex;
+    position: relative;
+    top:100vh;
+    flex-direction:row;
+    justify-content:center;
+
+    .resultdiv{
+        width:50vw;
+    }
+}

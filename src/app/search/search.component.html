@@ -1,0 +1,9 @@
+<div id="searchbar">
+    <div id="searchform">
+        <form>
+            <label for='searchinput'>Type in your search term here!</label>
+                <textarea autofocus type="text" id="searchinput" name="search" (keyup)="onEnter($event)"></textarea>
+        </form>
+    </div>
+</div>
+<app-resultWrapper *ngIf="this.showResults"></app-resultWrapper>
